@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 header {
     margin: 47px 0 0 42px;
 }
@@ -76,6 +77,67 @@ p {
     cursor: pointer;
 }
 
-@media screen and (width: 600px) {
-    
+@media screen and (max-width: 600px) {
+    .div-main {
+        width: 100%;
+        height: 50%;
+    }
+
+    header {
+        margin: 17px 15px 0 270px;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .button-signup {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+    }   
+
+    .main {
+        display: block;
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        margin: 59px 39px 22px 39px;
+        width: 80%;   
+    }
+
+    .right {
+        margin: 0;
+    }
+
+    h1 {
+        width: 278px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin: 124px 55px 29px 55px;
+    }
+
+    p {
+        width: 304px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin: 0 43px;
+    }
+
+    .button-learnmore {
+        width: 112px;
+        height: 27px;
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        margin: 26px 139px 0 139px;
+    }
 }
